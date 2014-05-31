@@ -4,7 +4,7 @@
 // function employeeservices->getEmployeeswithdep() ->  // designation 23 -> is managing director   not get report
 
 //This is to set the site title
-$config['APPLICATION_MAIN_TITLE']	= "EXAM MIS ";
+$config['APPLICATION_MAIN_TITLE']	= "WORKGRAM ";
 
 //LankaCom Country ID
 $config['LCS_COUNTRY_ID']	= "1";

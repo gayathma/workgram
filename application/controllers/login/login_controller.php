@@ -41,17 +41,11 @@ class Login_controller extends CI_Controller {
     }
 
     function index() {
-
-        //	$data['login_title'] = $this->config->item('APPLICATION_MAIN_TITLE')."Login";						 
-        //$partials = array('content' => 'item_main_category/manage_item_main_categories');
-
         if ($this->session->userdata('EMPLOYEE_LOGGED_IN')) {
-
-
             redirect(base_url() . 'index.php/TA/dashboard_controller/');
         } else {
 
-            $this->template->load('template/main_template');
+            $this->template->load('template/login');
         }
     }
 
