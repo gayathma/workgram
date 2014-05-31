@@ -86,7 +86,7 @@
                                 <div class="pull-right">
                                     <i id="animate-icon" class="fa fa-spinner fa fa-3x fa-spin"></i>
                                 </div>
-                                <button class="btn btn-primary btn-cons pull-right" type="button">Login</button>
+                                <button class="btn btn-primary btn-cons pull-right" type="button" onclick="login()">Login</button>
 
                             </div>
                         </div>
